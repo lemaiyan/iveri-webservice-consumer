@@ -72,7 +72,7 @@ If the debit is successful you will get back a response that looks the one below
  
 For one reason or another you may want to void a transaction, to do that use the function
 
-    (iveri/voidCard {:merchant-trace "This is the metchant trace you get after a successful debit in our case the vealue is '8093fb5c-12b7-413e-bbc0-b6d27b5dd549'})      
+    (iveri/voidTransaction {:merchant-trace "This is the metchant trace you get after a successful debit in our case the vealue is '8093fb5c-12b7-413e-bbc0-b6d27b5dd549'})      
 
 When successful the response is as below 
 
